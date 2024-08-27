@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #7765E3;
+  --card-bg-color: #C8ADC0;
+}
+
+html{
+  font-family: "Montserrat Alternates", sans-serif;
+  overflow-x: hidden;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+}
+
+.btn:disabled{
+  background-color: #C8ADC0;
+  /* opacity: 0.3; */
+}
+
+input[type="text"]{
+  padding: 0 1rem;
+  border-radius: 0.3rem;
+}
+
+select{
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
